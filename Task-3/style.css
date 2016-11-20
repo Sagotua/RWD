@@ -1,0 +1,59 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.top{
+    background: #3fb4ff;
+    height: 10vh;
+    margin: 1% 1% 0 1%;
+}
+.navigation{
+    background: #009245;
+    height: 80vh;
+    width:22%;
+    float: left;
+    margin: 1vw;;
+}
+.side{
+    background: #f1861e;
+    height: 80vh;
+    width: 18%;
+    float: left;
+    margin: 1% 0 1% 1%;
+}
+.content{
+    background: #d41440;
+    height: 80vh;
+    width: 54%;
+    float: left;
+    margin: 1vw;
+}
+
+@media (min-width: 0px) and (max-width: 767px){
+    .navigation{
+        width: 98%;
+        height: 30vh;
+    }
+    .content{
+        width: 98%;
+        height: 53vh;
+    }
+    .side{
+        display: none;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .navigation{
+        width: 98%;
+        height: 30vh;
+    }
+    .content{
+        width: 55%;
+        height: 53vh;
+    }
+    .side{
+        width: 41%;
+        height: 53vh;
+    }
+}
