@@ -2,31 +2,32 @@
     margin: 0px;
     padding: 0px;
 }
+
 .top{
     background: #3fb4ff;
     height: 10vh;
-    margin: 1% 1% 0 1%;
+    margin: 15px 15px 0px 15px;
 }
 .navigation{
     background: #009245;
     height: 80vh;
     width:22%;
     float: left;
-    margin: 1vw;;
+    margin: 15px;
 }
 .side{
     background: #f1861e;
     height: 80vh;
-    width: 18%;
+    width: 19.3%;
     float: left;
-    margin: 1% 0 1% 1%;
+    margin: 15px 0px 15px 15px;
 }
 .content{
     background: #d41440;
     height: 80vh;
     width: 54%;
     float: left;
-    margin: 1vw;
+    margin: 15px;
 }
 
 @media (min-width: 0px) and (max-width: 767px){
