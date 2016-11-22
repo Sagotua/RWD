@@ -1,0 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+[role=navigation] > span a:not([href^=mailto]) {background-color: red}
+div div a + p + p {background-color: green}
+div div p:nth-child(3) {font-size: 22px}
