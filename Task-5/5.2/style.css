@@ -9,7 +9,7 @@ body {
     justify-content: center;
     align-items: center;
 }
-a {
+a:before {
     width: 150vh;
     height: 450px;
     content: url("image/mc.png");
