@@ -3,58 +3,96 @@
     padding: 0px;
 }
 
-.top{
-    background: #3fb4ff;
-    height: 10vh;
-    margin: 15px 15px 0px 15px;
-}
-.navigation{
-    background: #009245;
-    height: 80vh;
-    width:22%;
-    float: left;
-    margin: 15px;
-}
-.side{
-    background: #f1861e;
-    height: 80vh;
-    width: 19.3%;
-    float: left;
-    margin: 15px 0px 15px 15px;
-}
-.content{
-    background: #d41440;
-    height: 80vh;
-    width: 54%;
-    float: left;
-    margin: 15px;
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
-@media (min-width: 0px) and (max-width: 767px){
-    .navigation{
-        width: 98%;
-        height: 30vh;
+
+@media (max-width: 767px){
+    .header {
+        margin: 15px;
+        height: 20vh;
+        width: 100%;
+        background: #42bcf4;
     }
-    .content{
-        width: 98%;
+
+    .navigation {
+        margin: 15px;
+        height: 20vh;
+        width: 100%;
+        background: #23752e;
+    }
+
+    .content {
+        margin: 15px;
         height: 53vh;
+        width: 100%;
+        background: #d11940;
     }
-    .side{
+
+    .advertising {
         display: none;
     }
 }
+@media (min-width:768px) and (max-width: 1023px) {
+    .header {
+        margin: 15px;
+        height: 14vh;
+        width: 100%;
+        background: #42bcf4;
+    }
 
-@media (min-width: 768px) and (max-width: 991px) {
-    .navigation{
-        width: 98%;
-        height: 30vh;
+    .navigation {
+        margin: 15px;
+        height: 25vh;
+        width: 100%;
+        background: #23752e;
     }
-    .content{
-        width: 55%;
-        height: 53vh;
+
+    .content {
+        margin: 15px;
+        height: 52vh;
+        width: 58%;
+        background: #d11940;
     }
-    .side{
-        width: 41%;
-        height: 53vh;
+
+    .advertising {
+        margin: 15px;
+        height: 52vh;
+        width: 33%;
+        background: #f28b1d;
+    }
+}
+
+/*Desktop*/
+@media (min-width: 1024px) {
+    .header {
+        margin: 15px;
+        height: 14vh;
+        width: 100%;
+        background: #42bcf4;
+    }
+
+    .navigation {
+        margin: 15px;
+        height: 75vh;
+        width: 26%;
+        background: #23752e;
+    }
+
+    .content {
+        margin: 15px;
+        height: 75vh;
+        width: 47%;
+        background: #d11940;
+    }
+
+    .advertising {
+        margin: 15px;
+        height: 75vh;
+        width: 18%;
+        background: #f28b1d;
     }
 }
