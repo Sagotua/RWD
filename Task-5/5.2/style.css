@@ -10,7 +10,6 @@ body {
     align-items: center;
 }
 a:before {
-    width: 150vh;
-    height: 450px;
+    height: 20px;
     content: url("image/mc.png");
 }
